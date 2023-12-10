@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+.player {
+    text-align: center;
+}
+table{
+    border:  1 px;
+
+}
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+#tabuleiroJogador1 {
+    align-self: flex-start;
+}
+
+#tabuleiroJogador2 {
+    align-self: flex-end;
+}
